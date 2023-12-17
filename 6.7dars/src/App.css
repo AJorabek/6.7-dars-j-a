@@ -1,0 +1,30 @@
+ul {
+  list-style: none;
+  position: relative;
+}
+.listH4 {
+  position: static;
+}
+.finish {
+  text-decoration: line-through;
+  font-size: 25px;
+  background-color: #897e7e;
+  color: rgb(89, 224, 89);
+}
+.table,
+tr,
+td,
+td {
+  border: 1px solid wheat;
+  border-collapse: collapse;
+  padding: 100px;
+  cursor: pointer;
+  :hover {
+    background-color: #fff;
+    color: #000000;
+  }
+}
+
+.hidden {
+  display: none;
+}
